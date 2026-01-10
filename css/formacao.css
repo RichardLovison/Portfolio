@@ -43,9 +43,8 @@
 
 .faculdade-lista {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
-    margin-bottom: 60px;
 }
 
 .faculdade {
@@ -122,6 +121,10 @@
 
 .idiomas h3::before {
     background: url("../img/idiomas.svg") no-repeat center center;
+}
+
+.formacao-extra {
+    margin-top: 50px;
 }
 
 .formacao-extra li {
